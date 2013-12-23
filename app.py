@@ -1,15 +1,11 @@
-#!/usr/bin/env python
-# vim:fileencoding=utf-8
-
-import os
-import sys
-from flask import Flask
-
+from flask import Flask, render_template
 app = Flask(__name__)
+app.config['DEBUG'] = True
+
 
 @app.route("/")
-def index():
-    return "hello world!!"
+def hello():
+    return render_template("index.html", title="Flaski")
 
 if __name__ == "__main__":
     app.run()

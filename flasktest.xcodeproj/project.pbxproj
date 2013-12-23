@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		DC3135CE1867BF5600343A5A /* templates */ = {isa = PBXFileReference; lastKnownFileType = folder; path = templates; sourceTree = "<group>"; };
+		DC3135D21867C0E600343A5A /* static */ = {isa = PBXFileReference; lastKnownFileType = folder; path = static; sourceTree = "<group>"; };
 		DC88A6791867299B00B73E2A /* app.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = app.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -15,6 +17,8 @@
 			isa = PBXGroup;
 			children = (
 				DC88A6791867299B00B73E2A /* app.py */,
+				DC3135D21867C0E600343A5A /* static */,
+				DC3135CE1867BF5600343A5A /* templates */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +172,7 @@
 				DC88A678186727A500B73E2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
