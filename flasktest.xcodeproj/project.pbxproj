@@ -6,10 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		DC88A6791867299B00B73E2A /* app.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = app.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		DC88A66E186727A500B73E2A = {
 			isa = PBXGroup;
 			children = (
+				DC88A6791867299B00B73E2A /* app.py */,
 			);
 			sourceTree = "<group>";
 		};
